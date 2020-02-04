@@ -4,12 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "madantiwari",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madan-tiwari/movie-app-backend.git"
+  },
+  "author": "madan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs":"^2.4.3",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
 
-  }
+
+  },
+  "bugs": {
+    "url": "https://github.com/madan-tiwari/movie-app-backend/issues"
+  },
+  "homepage": "https://github.com/madan-tiwari/movie-app-backend#readme"
 }
